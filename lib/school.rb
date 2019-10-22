@@ -18,8 +18,10 @@ class School
   end
   
   def grade(number)
-    @roster.each do 
-      |grade, student| if number == student
+    @roster.each do |grade, student|
+      if number == student
+        return student
+      end
       
   end
 end
