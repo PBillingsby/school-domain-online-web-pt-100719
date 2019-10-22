@@ -22,6 +22,6 @@ class School
       if number == student
         return student
       end
-      
+    end
   end
 end
