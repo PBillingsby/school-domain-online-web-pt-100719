@@ -18,6 +18,7 @@ class School
   end
   
   def grade(number)
-    @roster.each do {|grade, student| (number == grade ? return student : nil)}end
+    @roster.each do 
+      |grade, student| if number == student
   end
 end
