@@ -25,5 +25,7 @@ class School
     end
   end
   
-  def sort()
+  def sort
+    new_hash = {}
+    
 end
