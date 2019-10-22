@@ -30,5 +30,6 @@ class School
     @roster.each do |grade, student|
       new_hash[grade] = student.sort
     end
+    new_hash
   end
 end
